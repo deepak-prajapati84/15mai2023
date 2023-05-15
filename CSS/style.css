@@ -1,0 +1,26 @@
+.contai_img,.col_img{
+    position: relative;
+    font-family: sans-serif;
+}
+.shadow_img{
+    box-shadow: 1px 3px 4px 3px black;
+}
+
+.test_ph{
+    position: absolute;
+    color:white;
+    top:0;
+    left:19rem;
+    padding:20px;
+    letter-spacing:0.1rem;
+    opacity: 80%;
+}
+
+
+@media (max-width:768px) {
+    .p_none,h1{
+        display: none;
+        height:800px;
+    }
+    
+}
